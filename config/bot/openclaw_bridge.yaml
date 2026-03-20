@@ -1,0 +1,4 @@
+openclaw_bridge:
+  runtime_dir: ../../runtime/openclaw
+  min_relevance: 0.55
+  symbol_aliases_path: ../../data/static/ticker_aliases.json

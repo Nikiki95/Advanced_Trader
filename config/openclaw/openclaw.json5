@@ -1,0 +1,31 @@
+{
+  // Set this to the real workspace path on the Pi before production use.
+  // The files under config/openclaw/workspace/ are intended to be copied or linked there.
+  agents: {
+    defaults: {
+      workspace: "~/.openclaw/workspace",
+      heartbeat: {
+        every: "10m",
+        isolatedSession: true,
+        target: "last",
+        activeHours: {
+          start: "08:00",
+          end: "22:30",
+          timezone: "Europe/Berlin"
+        },
+        prompt: "Read HEARTBEAT.md if it exists in the workspace. If nothing needs attention, reply HEARTBEAT_OK. Otherwise summarize only the actionable issues."
+      }
+    },
+    list: [
+      { id: "main", default: true },
+      {
+        id: "ops",
+        heartbeat: {
+          every: "10m",
+          isolatedSession: true,
+          target: "last"
+        }
+      }
+    ]
+  }
+}
