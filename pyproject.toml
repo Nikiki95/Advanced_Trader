@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-trading-bot-v3"
+version = "0.3.3"
+description = "A V3.3 trading bot architecture with event-driven backtesting, supervised live workflows and a richer OpenClaw operator bridge"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "OpenAI Assistant"}]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "PyYAML>=6.0",
+  "feedparser>=6.0",
+  "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+marketdata = [
+  "yfinance>=0.2",
+]
+ibkr = [
+  "ib-insync>=0.9.86",
+]
+
+[project.scripts]
+trading-bot = "trading_bot.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["trading_bot*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-q"
