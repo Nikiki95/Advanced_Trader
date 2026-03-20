@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-03-20T20:45:21.746344+00:00",
+  "blocked_symbols": [
+    "BBB"
+  ],
+  "review_symbols": [],
+  "critical_symbols": [
+    "BBB"
+  ],
+  "pending_approvals": [],
+  "active_alerts": [],
+  "operator_guardrails": [
+    "Do not convert OpenClaw research directly into broker actions.",
+    "Resolve or acknowledge critical alerts before shift handoff closes.",
+    "Carry forward only still-valid approvals; let stale approvals expire.",
+    "Use symbol playbooks for any elevated or critical names."
+  ]
+}

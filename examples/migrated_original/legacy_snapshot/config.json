@@ -1,0 +1,118 @@
+{
+  "sessions": {
+    "eu": {
+      "start_cet": "08:00",
+      "end_cet": "16:00",
+      "exchange": "SMART",
+      "currency": "USD",
+      "watchlist": [
+        "SAP",
+        "SIEGY",
+        "ALVEY",
+        "DTEGY",
+        "MBGYY"
+      ],
+      "news_feeds": [
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s={ticker}&region=US&lang=en-US",
+        "https://news.google.com/rss/search?q={ticker}+stock&hl=en&gl=US"
+      ]
+    },
+    "us": {
+      "start_cet": "14:00",
+      "end_cet": "21:30",
+      "exchange": "SMART",
+      "currency": "USD",
+      "watchlist": [
+        "AAPL",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "NVDA",
+        "TSLA",
+        "META"
+      ],
+      "news_feeds": [
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s={ticker}&region=US&lang=en-US",
+        "https://news.google.com/rss/search?q={ticker}+stock+OR+earnings&hl=en&gl=US"
+      ]
+    }
+  },
+  "market_open_buffer_minutes": 5,
+  "holidays": {
+    "us": [
+      "2026-01-01",
+      "2026-01-19",
+      "2026-02-16",
+      "2026-05-25",
+      "2026-07-03",
+      "2026-09-07",
+      "2026-11-26",
+      "2026-12-25"
+    ],
+    "eu": [
+      "2026-01-01",
+      "2026-04-03",
+      "2026-04-06",
+      "2026-05-01",
+      "2026-12-25",
+      "2026-12-26"
+    ]
+  },
+  "ib_gateway": {
+    "host": "127.0.0.1",
+    "port": 4001,
+    "client_id": 1
+  },
+  "sentiment": {
+    "max_age_hours": 6,
+    "min_confidence": 0.4,
+    "cron_interval_hours": 3,
+    "cron_interval_minutes": 30,
+    "breaking_news_threshold": 0.6
+  },
+  "risk": {
+    "max_position_usd": 500,
+    "max_risk_per_trade": 0.02,
+    "paper_trading": true,
+    "short_enabled": true
+  },
+  "position_sizing": {
+    "method": "atr",
+    "fixed_usd": 500,
+    "atr_risk_usd": 50,
+    "kelly_fraction": 0.25,
+    "max_position_usd": 1000,
+    "max_total_exposure": 0.3
+  },
+  "stop_loss": {
+    "method": "atr",
+    "fixed_pct": 0.05,
+    "atr_multiplier": 2.0,
+    "trailing": false
+  },
+  "tracking": {
+    "enabled": true,
+    "db_file": "/home/santaclaw/trading/performance.json",
+    "min_trades_for_report": 10
+  },
+  "providers": {
+    "primary": {
+      "name": "deepseek",
+      "base_url": "https://api.deepseek.com/v1",
+      "model": "deepseek-chat",
+      "api_key_env": "DEEPSEEK_API_KEY"
+    },
+    "secondary": {
+      "name": "nvidia-nim",
+      "base_url": "https://integrate.api.nvidia.com/v1",
+      "model": "moonshotai/kimi-k2.5",
+      "api_key_env": "NVIDIA_API_KEY"
+    },
+    "fallback": {
+      "name": "anthropic",
+      "base_url": "https://api.anthropic.com/v1",
+      "model": "claude-sonnet-4-6",
+      "api_key_env": "ANTHROPIC_API_KEY"
+    }
+  }
+}

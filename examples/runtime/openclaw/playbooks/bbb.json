@@ -1,0 +1,32 @@
+{
+  "symbol": "BBB",
+  "generated_at": "2026-03-20T20:45:20.308727+00:00",
+  "event_regime": "binary_event_lockdown",
+  "approval_policy": "block_new_entries",
+  "trading_stance": "block_new_entries",
+  "headline_risk": "high",
+  "event_flags": [
+    "guidance_change",
+    "lawsuit"
+  ],
+  "event_risk_score": 0.8837,
+  "contradiction_score": 0.0,
+  "relevance_score": 0.9404,
+  "sentiment_score": -0.6763,
+  "confidence": 0.8856,
+  "thesis": "2 articles; bearish bias; high headline risk",
+  "review_level": "manual review required",
+  "pending_approvals": [],
+  "active_alerts": [],
+  "recommended_actions": [
+    "Do not add fresh risk until the event path is clarified.",
+    "Escalate to manual review before any restart of entries.",
+    "Block new entries until the approval policy improves.",
+    "OpenClaw stance currently leans block_new_entries."
+  ],
+  "operator_questions": [
+    "Does the current OpenClaw thesis still support taking risk here?",
+    "Is the current event regime compatible with fresh entries?",
+    "Would waiting for more confirmation reduce avoidable headline risk?"
+  ]
+}

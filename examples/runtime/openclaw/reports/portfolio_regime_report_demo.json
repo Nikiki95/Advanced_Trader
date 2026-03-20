@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-03-20T20:45:19.044013+00:00",
+  "symbol_count": 2,
+  "regime_counts": {
+    "risk_on_supportive": 1,
+    "binary_event_lockdown": 1
+  },
+  "approval_policy_counts": {
+    "auto": 1,
+    "block_new_entries": 1
+  },
+  "priority_counts": {
+    "normal": 1,
+    "critical": 1
+  },
+  "focus_symbols": [
+    "BBB"
+  ],
+  "symbol_rows": [
+    {
+      "symbol": "BBB",
+      "event_regime": "binary_event_lockdown",
+      "approval_policy": "block_new_entries",
+      "daily_report_priority": "critical",
+      "trading_stance": "block_new_entries",
+      "event_risk_score": 0.8837,
+      "contradiction_score": 0.0,
+      "headline_risk": "high",
+      "pending_approvals": 0,
+      "active_alerts": 0
+    },
+    {
+      "symbol": "AAA",
+      "event_regime": "risk_on_supportive",
+      "approval_policy": "auto",
+      "daily_report_priority": "normal",
+      "trading_stance": "favor_long",
+      "event_risk_score": 0.3285,
+      "contradiction_score": 0.0,
+      "headline_risk": "medium",
+      "pending_approvals": 0,
+      "active_alerts": 0
+    }
+  ],
+  "operator_focus": [
+    "Review critical symbols before considering any fresh entries.",
+    "At least one symbol is in block_new_entries mode; treat those names as locked."
+  ]
+}

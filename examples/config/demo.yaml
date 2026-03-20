@@ -1,0 +1,82 @@
+universe:
+  symbols: [AAA, BBB]
+market_data:
+  source: csv
+  csv_dir: ../data/prices
+sentiment:
+  path: ../data/sentiment_snapshots.csv
+  current_json_path: ../data/current_sentiment.json
+strategy:
+  warmup_bars: 30
+  long_entry_threshold: 0.35
+  short_entry_threshold: -0.35
+  long_exit_threshold: -0.05
+  short_exit_threshold: 0.05
+  weights:
+    trend: 0.35
+    momentum: 0.25
+    mean_reversion: 0.10
+    sentiment: 0.30
+risk:
+  starting_cash: 100000
+  risk_per_trade: 0.01
+  max_positions: 4
+  max_gross_exposure: 1.5
+  min_cash_buffer_pct: 0.10
+  stop_atr_multiple: 2.0
+  daily_loss_limit_pct: 0.03
+  max_symbol_weight: 0.35
+backtest:
+  start: 2024-01-15
+  end: 2024-06-28
+  slippage_bps: 5
+  fee_bps: 1
+  allow_shorting: true
+compatibility:
+  timezone: Europe/Berlin
+  sessions:
+    us:
+      start_cet: "14:00"
+      end_cet: "21:30"
+      watchlist: [AAA, BBB]
+  holidays: {}
+  sentiment_runtime:
+    feed_map:
+      us: []
+live:
+  sync_on_start: true
+  recover_on_start: true
+  fills_lookback_minutes: 1440
+  resume_working_orders_on_start: true
+  stale_order_minutes: 30
+  process_retry_queue: true
+  reconcile_protection_on_start: true
+  state_path: ../runtime/live_state.json
+  execution_journal_path: ../runtime/execution_journal.jsonl
+  audit_path: ../runtime/audit.db
+  broker:
+    host: 127.0.0.1
+    port: 4002
+    client_id: 7
+    exchange: SMART
+    currency: USD
+    order_timeout_seconds: 20
+  workflow_timeout_minutes: 20
+  cancel_timeout_policy: retry_cancel
+  replace_timeout_policy: retry_replace
+  max_workflow_resume_attempts: 3
+  resume_workflows_on_start: true
+
+  require_operator_approval: true
+  approval_intents: [OPEN_SHORT]
+  approval_notional_threshold: 5000
+  approval_ttl_minutes: 120
+  block_when_manual_review_active: true
+  alert_on_warnings: true
+  alert_on_pending_approvals: true
+
+openclaw_bridge:
+  runtime_dir: ../runtime/openclaw
+  min_relevance: 0.55
+  symbol_aliases_path: ../data/static/ticker_aliases.json
+  report_dir: ../runtime/openclaw/reports

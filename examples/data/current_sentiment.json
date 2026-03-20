@@ -1,0 +1,48 @@
+{
+  "AAA": {
+    "timestamp": "2026-03-20T07:15:00Z",
+    "sentiment_score": 0.3942,
+    "confidence": 0.8071,
+    "provider": "openclaw_v3",
+    "summary": "Alpha Analytics launches new enterprise product line",
+    "headline_count": 2,
+    "relevance_score": 0.8971,
+    "event_flags": [
+      "analyst_rating",
+      "product_launch"
+    ],
+    "headline_risk": "medium",
+    "source_count": 2,
+    "event_risk_score": 0.3285,
+    "contradiction_score": 0.0,
+    "action_bias": "bullish",
+    "thesis": "2 articles; bullish bias; medium headline risk",
+    "trading_stance": "favor_long",
+    "event_regime": "risk_on_supportive",
+    "approval_policy": "auto",
+    "daily_report_priority": "normal"
+  },
+  "BBB": {
+    "timestamp": "2026-03-20T07:15:00Z",
+    "sentiment_score": -0.6763,
+    "confidence": 0.8856,
+    "provider": "openclaw_v3",
+    "summary": "Beta Biotech faces lawsuit after trial setback",
+    "headline_count": 2,
+    "relevance_score": 0.9404,
+    "event_flags": [
+      "guidance_change",
+      "lawsuit"
+    ],
+    "headline_risk": "high",
+    "source_count": 2,
+    "event_risk_score": 0.8837,
+    "contradiction_score": 0.0,
+    "action_bias": "bearish",
+    "thesis": "2 articles; bearish bias; high headline risk",
+    "trading_stance": "block_new_entries",
+    "event_regime": "binary_event_lockdown",
+    "approval_policy": "block_new_entries",
+    "daily_report_priority": "critical"
+  }
+}

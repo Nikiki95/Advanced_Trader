@@ -1,0 +1,42 @@
+{
+  "SAP": {
+    "sentiment_score": 0.1,
+    "confidence": 0.7,
+    "summary": "Die Nachrichten sind gemischt, mit positiven Partnerschaften und KI-Initiativen, die von Aktiendruck und verpassten Cloud-Zielen \u00fcberschattet werden.",
+    "provider": "deepseek",
+    "timestamp": "2026-03-19T12:50:06.583678+00:00",
+    "stale": false
+  },
+  "SIEGY": {
+    "sentiment_score": 0.4,
+    "confidence": 0.8,
+    "summary": "Die Nachrichten zeigen eine positive Marktpositionierung und starkes Momentum f\u00fcr Siemens, gepr\u00e4gt durch strategische Allianzen mit NVIDIA und eine Aufwertung zum wertvollsten deutschen Unternehmen, jedoch mit Hinweisen auf bereits eingepreiste Erwartungen.",
+    "provider": "deepseek",
+    "timestamp": "2026-03-19T12:50:07.393262+00:00",
+    "stale": false
+  },
+  "DTEGY": {
+    "sentiment_score": 0.1,
+    "confidence": 0.7,
+    "summary": "Die Nachrichten zeigen eine gemischte, aber leicht positive Grundstimmung f\u00fcr DTEGY mit einer bedeutenden Upgrade-Notiz, jedoch auch vergleichenden Wertanalysen und einer korrigierenden Perspektive f\u00fcr 2026.",
+    "provider": "deepseek",
+    "timestamp": "2026-03-19T12:50:07.972147+00:00",
+    "stale": false
+  },
+  "ALVEY": {
+    "sentiment_score": 0.1,
+    "confidence": 0.7,
+    "summary": "Die Nachrichten zeigen eine neutrale bis leicht positive Medienpr\u00e4senz f\u00fcr den Namen Alvey, die sich auf pers\u00f6nliche Geschichten, Sport, lokale Updates und Unternehmensnachrichten verteilt, ohne ein klares gemeinsames Thema oder eine eindeutige negative Konnotation.",
+    "provider": "deepseek",
+    "timestamp": "2026-03-19T12:50:08.063287+00:00",
+    "stale": false
+  },
+  "MBGYY": {
+    "sentiment_score": -0.3,
+    "confidence": 0.7,
+    "summary": "Die Nachrichten zeigen gemischte Signale mit strategischen China-Investitionen und KI-Partnerschaften, werden jedoch von erheblich gestiegener Short-Positionierung, Handelskonflikten und kritischen Bewertungen zur \u00dcberbewertung dominiert.",
+    "provider": "deepseek",
+    "timestamp": "2026-03-19T12:50:12.118216+00:00",
+    "stale": false
+  }
+}

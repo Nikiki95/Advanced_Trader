@@ -1,0 +1,139 @@
+timestamp,symbol,score,confidence,source,summary,relevance_score,event_risk_score,contradiction_score,headline_risk,action_bias,source_count,thesis,event_flags,trading_stance,event_regime,approval_policy
+2024-01-01,AAA,0.356417795218628,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-01-01,BBB,-0.5126603232482712,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-01-08,AAA,0.4237124526028476,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-01-08,BBB,-0.0869217395099476,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-01-15,AAA,0.3198676894355705,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-01-15,BBB,-0.5721062764976812,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-01-22,AAA,0.2304297648797132,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-01-22,BBB,-0.0150647098845955,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-01-29,AAA,0.0166406863125713,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-01-29,BBB,-0.2521285118290279,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-02-05,AAA,0.2083999065839289,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-02-05,BBB,-0.0793144547622745,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-02-12,AAA,0.2689863257427846,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-02-12,BBB,-0.1394068968896583,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-02-19,AAA,0.4178552503002911,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-02-19,BBB,0.0754338759595029,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-02-26,AAA,0.3256469667589555,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-02-26,BBB,-0.1435933445566083,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-03-04,AAA,0.1717933425047076,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-03-04,BBB,-0.0214379655059384,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-03-11,AAA,0.2587389382314362,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-03-11,BBB,-0.2841131246131618,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-03-18,AAA,0.3473302646180947,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-03-18,BBB,-0.4344326518009774,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-03-25,AAA,0.3774524034714725,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-03-25,BBB,-0.0548800590612484,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-04-01,AAA,0.3851520588196749,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-04-01,BBB,-0.4383346346268088,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-04-08,AAA,0.3351428846804408,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-04-08,BBB,-0.0886956645530764,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-04-15,AAA,0.124641348084091,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-04-15,BBB,-0.3612149020726571,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-04-22,AAA,0.4551852324897824,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-04-22,BBB,-0.159485684870407,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-04-29,AAA,0.3994365898552104,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-04-29,BBB,0.0789242211434967,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-05-06,AAA,0.4062263334207442,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-05-06,BBB,-0.1013167984350231,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-05-13,AAA,0.6752894632661991,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-05-13,BBB,-0.2320706837135736,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-05-20,AAA,0.2542540683657805,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-05-20,BBB,-0.1358305402629301,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-05-27,AAA,0.4026789235266673,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-05-27,BBB,-0.2790073087919312,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-06-03,AAA,0.2261123576534182,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-06-03,BBB,0.1464766633135116,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-06-10,AAA,0.3892212164465627,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-06-10,BBB,-0.3098428072103114,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-06-17,AAA,0.4599116362735518,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-06-17,BBB,-0.2163717727342002,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-06-24,AAA,0.3196542264418602,0.8,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2024-06-24,BBB,-0.115659069212826,0.75,demo_feed,,0.0,0.0,0.0,,,0.0,,,,,
+2026-03-20T15:40:00.538181+00:00,AAA,0.0,0.0,keyword_news_v2,No recent headlines,0.0,0.0,0.0,,,0.0,,,,,
+2026-03-20T15:40:00.538181+00:00,BBB,0.0,0.0,keyword_news_v2,No recent headlines,0.0,0.0,0.0,,,0.0,,,,,
+2026-03-20T07:15:00Z,AAA,0.42,0.82,openclaw_v3,Alpha Analytics launches new enterprise product line,0.0,0.0,0.0,,,0.0,,,,,
+2026-03-20T07:15:00Z,BBB,-0.71,0.9,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.0,0.0,0.0,,,0.0,,,,,
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2.0,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,,,
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2.0,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,,,
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries
+2026-03-20T07:15:00Z,AAA,0.3942,0.8071,openclaw_v3,Alpha Analytics launches new enterprise product line,0.8971,0.3285,0.0,medium,bullish,2,2 articles; bullish bias; medium headline risk,analyst_rating|product_launch,favor_long,risk_on_supportive,auto
+2026-03-20T07:15:00Z,BBB,-0.6763,0.8856,openclaw_v3,Beta Biotech faces lawsuit after trial setback,0.9404,0.8837,0.0,high,bearish,2,2 articles; bearish bias; high headline risk,guidance_change|lawsuit,block_new_entries,binary_event_lockdown,block_new_entries

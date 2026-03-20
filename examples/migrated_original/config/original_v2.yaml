@@ -1,0 +1,119 @@
+universe:
+  symbols:
+  - SAP
+  - SIEGY
+  - ALVEY
+  - DTEGY
+  - MBGYY
+  - AAPL
+  - MSFT
+  - GOOGL
+  - AMZN
+  - NVDA
+  - TSLA
+  - META
+market_data:
+  source: csv
+  csv_dir: ../data/prices
+sentiment:
+  path: ../data/sentiment_history.csv
+  current_json_path: ../data/current_sentiment.json
+strategy:
+  warmup_bars: 30
+  long_entry_threshold: 0.35
+  short_entry_threshold: -0.35
+  long_exit_threshold: -0.05
+  short_exit_threshold: 0.05
+  weights:
+    trend: 0.35
+    momentum: 0.25
+    mean_reversion: 0.1
+    sentiment: 0.3
+risk:
+  starting_cash: 100000.0
+  risk_per_trade: 0.02
+  max_positions: 4
+  max_gross_exposure: 0.5
+  min_cash_buffer_pct: 0.1
+  stop_atr_multiple: 2.0
+  daily_loss_limit_pct: 0.03
+  max_symbol_weight: 0.01
+backtest:
+  start: '2024-01-01'
+  end: '2025-12-31'
+  slippage_bps: 5.0
+  fee_bps: 1.0
+  allow_shorting: true
+compatibility:
+  timezone: Europe/Berlin
+  sessions:
+    eu:
+      start_cet: 08:00
+      end_cet: '16:00'
+      exchange: SMART
+      currency: USD
+      watchlist:
+      - SAP
+      - SIEGY
+      - ALVEY
+      - DTEGY
+      - MBGYY
+      news_feeds: &id001
+      - https://feeds.finance.yahoo.com/rss/2.0/headline?s={ticker}&region=US&lang=en-US
+      - https://news.google.com/rss/search?q={ticker}+stock&hl=en&gl=US
+    us:
+      start_cet: '14:00'
+      end_cet: '21:30'
+      exchange: SMART
+      currency: USD
+      watchlist:
+      - AAPL
+      - MSFT
+      - GOOGL
+      - AMZN
+      - NVDA
+      - TSLA
+      - META
+      news_feeds: &id002
+      - https://feeds.finance.yahoo.com/rss/2.0/headline?s={ticker}&region=US&lang=en-US
+      - https://news.google.com/rss/search?q={ticker}+stock+OR+earnings&hl=en&gl=US
+  holidays:
+    us:
+    - '2026-01-01'
+    - '2026-01-19'
+    - '2026-02-16'
+    - '2026-05-25'
+    - '2026-07-03'
+    - '2026-09-07'
+    - '2026-11-26'
+    - '2026-12-25'
+    eu:
+    - '2026-01-01'
+    - '2026-04-03'
+    - '2026-04-06'
+    - '2026-05-01'
+    - '2026-12-25'
+    - '2026-12-26'
+  ibkr:
+    host: 127.0.0.1
+    port: 4001
+    client_id: 1
+    paper_trading: true
+  legacy_paths:
+    tracking_db: /home/santaclaw/trading/performance.json
+    runtime_state: runtime/live_state.json
+  sentiment_runtime:
+    feed_map:
+      eu: *id001
+      us: *id002
+live:
+  sync_on_start: true
+  state_path: ../runtime/live_state.json
+  execution_journal_path: ../runtime/execution_journal.jsonl
+  broker:
+    host: 127.0.0.1
+    port: 4001
+    client_id: 1
+    exchange: SMART
+    currency: USD
+    order_timeout_seconds: 20

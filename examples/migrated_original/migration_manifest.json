@@ -1,0 +1,25 @@
+{
+  "source": "/mnt/data/orig_unzip/AI_Trading_Bot-master",
+  "output": "examples/migrated_original",
+  "symbols": [
+    "SAP",
+    "SIEGY",
+    "ALVEY",
+    "DTEGY",
+    "MBGYY",
+    "AAPL",
+    "MSFT",
+    "GOOGL",
+    "AMZN",
+    "NVDA",
+    "TSLA",
+    "META"
+  ],
+  "symbol_count": 12,
+  "sentiment_rows_written": 5,
+  "generated_files": [
+    "examples/migrated_original/config/original_v2.yaml",
+    "examples/migrated_original/data/sentiment_history.csv",
+    "examples/migrated_original/data/current_sentiment.json"
+  ]
+}
