@@ -1,10 +1,14 @@
 {
-  "AAA": [
-    "Alpha Analytics",
-    "AAA Corp"
-  ],
-  "BBB": [
-    "Beta Biotech",
-    "BBB Inc"
-  ]
+  "AAPL": "Apple Inc.",
+  "MSFT": "Microsoft Corporation",
+  "GOOGL": "Alphabet Inc.",
+  "AMZN": "Amazon.com Inc.",
+  "NVDA": "NVIDIA Corporation",
+  "TSLA": "Tesla Inc.",
+  "META": "Meta Platforms Inc.",
+  "SAP": "SAP SE",
+  "SIEGY": "Siemens AG",
+  "ALVEY": "Allianz SE",
+  "DTEGY": "Deutsche Telekom AG",
+  "MBGYY": "Mercedes-Benz Group AG"
 }

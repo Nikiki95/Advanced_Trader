@@ -1,0 +1,14 @@
+numpy>=1.26
+pandas>=2.1
+PyYAML>=6.0
+feedparser>=6.0
+requests>=2.31
+
+[dev]
+pytest>=8.0
+
+[ibkr]
+ib-insync>=0.9.86
+
+[marketdata]
+yfinance>=0.2
